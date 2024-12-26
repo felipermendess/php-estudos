@@ -14,7 +14,7 @@ var_dump($numeroSecundario);
 echo '<br>' . $numeroSecundario;
 
 //$_SERVER -> Contém informações sobre o servidor e o ambiente de execução
-//Pegando ip do usuário
+//Pegando ip do servidor do usuário
 $ip = $_SERVER['REMOTE_ADDR'];
 var_dump($ip);
 
