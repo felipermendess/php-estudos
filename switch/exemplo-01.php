@@ -1,5 +1,7 @@
 <?php 
 //Switch case
+
+//A função date('w') em PHP retorna o número do dia da semana
 $diaDaSemana = date('w');
 var_dump($diaDaSemana);
 switch($diaDaSemana){
