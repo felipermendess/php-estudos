@@ -13,5 +13,4 @@ $valorTotal -= 20;
 $valorTotal *= .9;
 
 echo $valorTotal;
-
 ?>

@@ -18,10 +18,4 @@ if($meuSalario >= $salarioAlto){
 
 //Operador ternário
 echo ($meuSalario >= $salarioEstagio) ? "Salário de Estagiário" : "Ganhando bem pouco";
-
-
-
-
-
-
 ?>
