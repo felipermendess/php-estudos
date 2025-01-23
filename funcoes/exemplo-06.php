@@ -1,4 +1,5 @@
 <?php 
+//valor vs referência
 $persons = ["name"=>"felipe", "age"=>20];
 $hasMorePersons = false;
 

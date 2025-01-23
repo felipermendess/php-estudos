@@ -1,4 +1,5 @@
 <?php 
+//parâmetros
 function hello($user = "user", $period = "morning"){
     return "Hello $user, welcome to the game! You have just logged in for the period $period";
 }

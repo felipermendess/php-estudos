@@ -1,4 +1,5 @@
 <?php 
+//novidades php 7
 function sumValues(int ...$values):string{
     return array_sum($values);
 }

@@ -1,4 +1,5 @@
 <?php 
+//parâmetros e func get args
 function sayHello(){
     $arguments = func_get_args();
     return $arguments;

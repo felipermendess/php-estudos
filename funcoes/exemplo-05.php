@@ -1,4 +1,5 @@
 <?php 
+//valor vs referência
 $a = 19;
 function valueChange(&$b){
     $b += 20;

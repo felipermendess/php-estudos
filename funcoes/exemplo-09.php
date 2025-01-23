@@ -1,4 +1,5 @@
 <?php 
+//funções recursivas
 $hierarchy = array(
     array(
             'nome_cargo'=>'CEO',
