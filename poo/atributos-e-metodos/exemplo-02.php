@@ -1,4 +1,5 @@
 <?php 
+//atributos e métodos
 class Car{
     private $model;
     private $motor;

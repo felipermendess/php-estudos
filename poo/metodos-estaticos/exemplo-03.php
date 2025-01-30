@@ -1,4 +1,5 @@
 <?php 
+// Chamando o método sem instanciar a classe
 class Document{
     private $number;
 
