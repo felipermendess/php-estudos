@@ -16,6 +16,7 @@ class User {
     }
 }
 
+//herança
 class CsPlayer extends User {    
     public function showData(){
         echo get_class($this)."<br>"; //get_class(this) mostra a class que está sendo chamada
