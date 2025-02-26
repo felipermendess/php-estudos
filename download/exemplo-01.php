@@ -9,10 +9,12 @@ $link = "https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_colo
 // pegando conteúdo da imagem com file_get_contents - binário
 $content = file_get_contents($link);
 
-// extraindo o caminho da url com parse_url - scheme, host, path
+// extraindo o caminho da url com parse_url - scheme, host, path 
+//{ ["scheme"]=> string(5) "https" ["host"]=> string(17) "www.google.com.br" ["path"]=> string(60) "/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" }
 $url = parse_url($link);
 
-// pegando path do parse_url extraindo o nome do arquivo com basename
+// pegando path do parse_url extraindo o nome do arquivo com basename 
+//"googlelogo_color_272x92dp.png" 
 $basename = basename($url["path"]);
 
 // criando arquivo
