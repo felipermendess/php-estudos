@@ -1,4 +1,5 @@
 <?php 
+// set_error_handler - manipula e evita que o PHP mostre uma mensagem de erro, fazendo que com no lugar dela seja executada uma função
 function error_handler($code, $file, $message, $line) {
     echo json_encode([
         "code"=>$code,
